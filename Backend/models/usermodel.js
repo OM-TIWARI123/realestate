@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const dotenv=require('dotenv');
 dotenv.config();
-mongoose.connect("mongodb+srv://omtiwari123:8b1dwj0Nh0CmwGwz@cluster0.wjckru4.mongodb.net/");
+mongoose.connect("mongodb+srv://omtiwari123:09dijeyH7nRkVkMy@cluster0.wjckru4.mongodb.net/");
 
 const userSchema=new mongoose.Schema({
     username:{
